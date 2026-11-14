@@ -115,7 +115,7 @@ public class Main {
     // Se o arquivo não existir, devolve null.
     private static String lerArquivo(String nome) throws java.io.IOException {
 
-        Path caminho = Paths.get(nome);
+        Path caminho = Paths.get("arquivos", nome);
 
         if (!Files.exists(caminho)) {
             return null;
