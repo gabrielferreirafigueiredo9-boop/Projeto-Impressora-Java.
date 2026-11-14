@@ -27,6 +27,23 @@ O sistema possui autenticação de usuário, menu interativo e funções para co
 - Sinal sonoro.
 - Avanço de papel.
 
+## Opções do menu
+
+| Opção | Operação |
+|---|---|
+| 1 | Configurar conexão com a impressora |
+| 2 | Abrir conexão |
+| 3 | Fechar conexão |
+| 4 | Imprimir texto |
+| 5 | Imprimir QR Code |
+| 6 | Imprimir código de barras |
+| 7 | Imprimir XML SAT |
+| 8 | Imprimir XML de cancelamento SAT |
+| 9 | Abrir gaveta |
+| 10 | Emitir sinal sonoro |
+| 11 | Avançar papel |
+| 0 | Sair do sistema |
+
 ## Como executar
 
 1. Tenha o JDK instalado.
@@ -38,8 +55,8 @@ O sistema possui autenticação de usuário, menu interativo e funções para co
 
 ## Login para testes
 
-- Usuário: `admin`
-- Senha: `1234`
+- **Usuário:** `admin`
+- **Senha:** `1234`
 
 ## Arquivos XML
 
@@ -49,14 +66,14 @@ Os arquivos XML utilizados nos testes devem ficar dentro da pasta `arquivos`, na
 
 As operações reais de impressão dependem de uma impressora compatível conectada e configurada corretamente.
 
+## Repositório GitHub
+
+[Projeto Impressora Java](https://github.com/gabrielferreirafigueiredo9-boop/Projeto-Impressora-Java.)
+
 ## Autores
 
-Gabriel Ferreira Figueredo
-
-Thiago Oliveira de Jesus
-
-Davy Ezequiel da Silva
-
-Luís Fernando Oliveira da Silva
-
-Maria Clara Barbosa
+- Gabriel Ferreira Figueredo
+- Thiago Oliveira de Jesus
+- Davy Ezequiel da Silva
+- Luís Fernando Oliveira da Silva
+- Maria Clara Barbosa
